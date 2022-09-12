@@ -1,0 +1,18 @@
+@import './chat.css';
+@import './messages.css';
+@import './actions.css';
+
+
+:root{
+    --headerSize: 80px;
+    --actionsSize: 80px;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+
+

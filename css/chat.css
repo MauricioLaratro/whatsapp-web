@@ -1,0 +1,19 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    block-size: 100vh;
+}
+
+.header{
+    block-size: var(--headerSize);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user p span{
+    display: block;
+}
