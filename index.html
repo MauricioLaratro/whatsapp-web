@@ -13,19 +13,43 @@
 <body>
     <div class="chat">
         <header class="header">
-            <div class="user">
-                <img src="./images/josefa.png" width="48" height="48" alt="Foto de perfil de Josefa">
-                <p>
-                    <span>name</span>
-                    <span>status</span>
-                </p>
+            <div class="header-primary">
+                <div class="user">
+                    <img src="./images/josefa.png" width="48" height="48" alt="Foto de perfil de Josefa">
+                    <p>
+                        <span class="user-name">Josefa</span>
+                        <span class="user-status">En Línea</span>
+                    </p>
+                </div>
             </div>
-            <button class="button">
-                <i>search</i>
-            </button>
+            <div class="header-secondary">
+                <button class="button">
+                    <i>search</i>
+                </button>
+            </div>
         </header>
-        <div class="messages">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut debitis quidem id. Id, modi, sint rem iusto ducimus voluptates minus libero repellat voluptatem recusandae fugiat atque numquam praesentium labore dolorum!
+        <div class="message-list">
+            <img src="./images/background-message-list.png" class="bg-image" alt="imagen de fodo">
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text">Estoy enviando este mensaje</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">10:00 am</span>
+                    <span class="message-status is-dobleCheck"></span>
+                </div>
+            </div>
+            <div class="message is-receiver">
+                <div class="message-body">
+                    <p class="message-text">Estoy recibiendo este mensaje</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">09:28 am</span>
+                </div>
+            </div>
+            <div class="date">
+                Jueves
+            </div>
         </div>
         <div class="actions">
             Acciones

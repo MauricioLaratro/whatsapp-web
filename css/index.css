@@ -1,14 +1,32 @@
 @import './chat.css';
-@import './messages.css';
+@import './header.css';
+@import './user.css';
+@import './message-list.css';
 @import './actions.css';
-
 
 :root{
     --headerSize: 80px;
     --actionsSize: 80px;
     font-size: 16px;
-}
-
+    --black: #000000; 
+    --grey10: #666667; 
+    --grey20: #f2f2f2; 
+    --grey30: #f6f6f6; 
+    --grey40: #ededed; 
+    --white: #ffffff; 
+    --green10: #e1f7cb; 
+    --green20: #56bca6; 
+    --green30: #429488; 
+    --blue: #5cb3f0; 
+    --red: #ff4a4a; 
+    --body-16regular: 400 1rem/1.25rem Inter; 
+    --body-16bold: 700 1rem/1.25rem Inter; 
+    --body-14regular: 400 0.875rem/1.125rem Inter; 
+    --body-14regular_u: 500 0.875rem/1.25rem Inter; 
+    --caption-12bold: 700 0.75rem/1rem Inter; 
+    --caption-12regular: 400 0.75rem/1rem Inter; 
+    --caption-12regular_u: 400 0.75rem/1.25rem Inter; 
+    }
 body{
     margin: 0;
     font-family: 'inter', sans-serif;

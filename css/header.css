@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    padding: 1rem;
+    block-size: var(--headerSize);
+    justify-content: space-between;
+    background: var(--grey40);
+}
+
+.header-primary, .header-secondary{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header img{
+    border-radius: 50%;
+}
