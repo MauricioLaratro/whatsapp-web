@@ -15,13 +15,46 @@
     background-color: var(--white);
     align-self: flex-start;
     border-radius: 0 .5rem .5rem .5rem;
+    position: relative;
+    margin: 1rem;
+}
+
+.message.is-receiver::before{
+    content: '';
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid transparent;
+    border-inline-end: 6px solid var(--white);
+    border-block-start: 6px solid var(--white);
+    border-block-end: 6px solid transparent;
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 100%;
 }
 
 .message.is-sender{
     background-color: var(--green10);
     align-self: flex-end;
     border-radius: .5rem 0 .5rem .5rem;
+    margin: 1rem;
+    position: relative;
 }
+
+.message.is-sender::before{
+    content: '';
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid var(--green10);
+    border-inline-end: 6px solid transparent;
+    border-block-start: 6px solid var(--green10);
+    border-block-end: 6px solid transparent;
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 100%;
+}
+
 
 .message-date{
     font: var(--caption-12regular);
@@ -44,3 +77,4 @@
     justify-content: flex-end;
     gap: .25rem
 }
+
