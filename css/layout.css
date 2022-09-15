@@ -1,0 +1,11 @@
+:root{
+    --maxLayoutSize: 100rem;
+}
+
+.layout{
+    display: flex;
+    flex: 1;
+    max-block-size: 100vh;
+    max-inline-size: var(--maxLayoutSize);
+    margin: auto;
+}

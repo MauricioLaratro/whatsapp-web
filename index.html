@@ -11,48 +11,141 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="chat">
-        <header class="header">
-            <div class="header-primary">
-                <div class="user">
-                    <img src="./images/josefa.png" width="48" height="48" alt="Foto de perfil de Josefa">
-                    <p>
-                        <span class="user-name">Josefa</span>
-                        <span class="user-status">En Línea</span>
-                    </p>
+    <div class="layout">
+        <div class="sidebar">
+            <div class="header">
+                <div class="header-primary">
+                    <div class="user">
+                        <img src="./images/profile-photo.png" alt="Foto de perfil del usuario">
+                    </div>
                 </div>
             </div>
-            <div class="header-secondary">
-                <button class="button">
-                    <i>search</i>
-                </button>
+
+            <div class="search">
+                <form class="searcher" action="" role="search" aria-label="Buscar en la lista de chats">
+                    <button class="button">
+                        <img class="icon-search" src="./icons/search.svg" aria-hidden="true" alt="icono del buscador">
+                        <!-- <i class="icon-search" aria-hidden="true">Search</i> -->
+                    </button>
+                        <input type="search" placeholder="Buscar o iniciar un nuevo chat">
+                </form>
             </div>
-        </header>
-        <div class="message-list">
-            <img src="./images/background-message-list.png" class="bg-image" alt="imagen de fodo">
-            <div class="message is-sender">
-                <div class="message-body">
-                    <p class="message-text">Estoy enviando este mensaje</p>
+
+            <div class="chat-list">
+                <div class="sidebarChat">
+                    <div class="sidebarChat-img">
+                        <img src="./images/ingrid.png" alt="Foto de perfil de ingrid">
+                    </div>
+                    <div class="sidebarChat-text">
+                        <div class="sidebarChat-user">
+                            <span class="user-name">Ingrid</span>
+                            <span class="user-status">Viernes</span>
+                        </div>
+                        <div class="sidebarChat-message">
+                            <img src="./images/non-doble-check.svg" alt="">
+                            <span class="user-status">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repudiandae aspernatur iure reiciendis, dicta laudantium voluptatibus totam dolore delectus iusto ut suscipit corporis officia placeat! Aperiam commodi expedita doloribus sint.</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="message-details">
-                    <span class="message-date">10:00 am</span>
-                    <span class="message-status is-dobleCheck"></span>
+
+                <div class="sidebarChat">
+                    <div class="sidebarChat-img">
+                        <img src="./images/ingrid.png" alt="Foto de perfil de ingrid">
+                    </div>
+                    <div class="sidebarChat-text">
+                        <div class="sidebarChat-user">
+                            <span class="user-name">Ingrid</span>
+                            <span class="user-status">Viernes</span>
+                        </div>
+                        <div class="sidebarChat-message">
+                            <img src="./images/non-doble-check.svg" alt="">
+                            <span class="user-status">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repudiandae aspernatur iure reiciendis, dicta laudantium voluptatibus totam dolore delectus iusto ut suscipit corporis officia placeat! Aperiam commodi expedita doloribus sint.</span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="sidebarChat">
+                    <div class="sidebarChat-img">
+                        <img src="./images/ingrid.png" alt="Foto de perfil de ingrid">
+                    </div>
+                    <div class="sidebarChat-text">
+                        <div class="sidebarChat-user">
+                            <span class="user-name">Ingrid</span>
+                            <span class="user-status">Viernes</span>
+                        </div>
+                        <div class="sidebarChat-message">
+                            <img src="./images/non-doble-check.svg" alt="">
+                            <span class="user-status">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repudiandae aspernatur iure reiciendis, dicta laudantium voluptatibus totam dolore delectus iusto ut suscipit corporis officia placeat! Aperiam commodi expedita doloribus sint.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebarChat">
+                    <div class="sidebarChat-img">
+                        <img src="./images/ingrid.png" alt="Foto de perfil de ingrid">
+                    </div>
+                    <div class="sidebarChat-text">
+                        <div class="sidebarChat-user">
+                            <span class="user-name">Ingrid</span>
+                            <span class="user-status">Viernes</span>
+                        </div>
+                        <div class="sidebarChat-message">
+                            <img src="./images/non-doble-check.svg" alt="">
+                            <span class="user-status">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repudiandae aspernatur iure reiciendis, dicta laudantium voluptatibus totam dolore delectus iusto ut suscipit corporis officia placeat! Aperiam commodi expedita doloribus sint.</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="message is-receiver">
-                <div class="message-body">
-                    <p class="message-text">Estoy recibiendo este mensaje</p>
-                </div>
-                <div class="message-details">
-                    <span class="message-date">09:28 am</span>
-                </div>
-            </div>
-            <div class="date">
-                Jueves
-            </div>
+
         </div>
-        <div class="actions">
-            Acciones
+
+
+        <div class="chat">
+            <header class="header">
+                <div class="header-primary">
+                    <div class="user">
+                        <img src="./images/josefa.png" width="48" height="48" alt="Foto de perfil de Josefa">
+                        <p>
+                            <span class="user-name">Josefa</span>
+                            <span class="user-status">En Línea</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="header-secondary">
+                    <button class="button" aria-label="Buscar en los mensajes de este chat">
+                        <img class="icon-search" src="./icons/search.svg" aria-hidden="true" alt="icono del buscador">
+
+                        <!-- <i>search</i> -->
+                    </button>
+                </div>
+            </header>
+            <div class="message-list">
+                <img src="./images/background-message-list.png" class="bg-image" alt="imagen de fodo">
+                <div class="message is-sender">
+                    <div class="message-body">
+                        <p class="message-text">Estoy enviando este mensaje</p>
+                    </div>
+                    <div class="message-details">
+                        <span class="message-date">10:00 am</span>
+                        <span class="message-status is-dobleCheck"></span>
+                    </div>
+                </div>
+                <div class="message is-receiver">
+                    <div class="message-body">
+                        <p class="message-text">Estoy recibiendo este mensaje</p>
+                    </div>
+                    <div class="message-details">
+                        <span class="message-date">09:28 am</span>
+                    </div>
+                </div>
+                <div class="date">
+                    Jueves
+                </div>
+            </div>
+            <div class="actions">
+                Acciones
+            </div>
         </div>
     </div>
 </body>

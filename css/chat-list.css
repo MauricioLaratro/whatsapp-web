@@ -1,0 +1,44 @@
+.chat-list{
+    border: 1px solid red;
+    overflow-y: auto;
+}
+
+.sidebarChat{
+    display: flex;
+    padding: 1rem;
+    gap: .5rem;
+    align-items: center;
+}
+
+.sidebarChat-text{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: .5rem;
+
+}
+
+.sidebarChat-message{
+    display: flex;
+    gap: 4px;
+    min-width: 0;
+    /* UTILIZO MIN-WIDTH: 0; COMPONENTE Y LUEGO APLICO LAS ELLIPSIS EN ESPECIFICO A SUS SPAN PORQUE DEL O NO CONTRARIO NO FUNCIONAN LAS ELLIPSIS CUANDO SE UTILIZA DISPLAY FLEX */
+}
+
+.sidebarChat-message span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebarChat-user{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* .sidebarChat-text span:last-child{
+    position: absolute;
+    color: red;
+} */

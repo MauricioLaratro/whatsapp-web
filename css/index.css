@@ -1,12 +1,15 @@
+@import './layout.css';
+@import './sidebar.css';
 @import './chat.css';
 @import './header.css';
 @import './user.css';
 @import './message-list.css';
 @import './actions.css';
+@import './buttons.css';
 
 :root{
-    --headerSize: 80px;
-    --actionsSize: 80px;
+    --headerSize: 50px;
+    --actionsSize: 50px;
     font-size: 16px;
     --black: #000000; 
     --grey10: #666667; 
@@ -27,9 +30,11 @@
     --caption-12regular: 400 0.75rem/1rem Inter; 
     --caption-12regular_u: 400 0.75rem/1.25rem Inter; 
     }
+
 body{
     margin: 0;
     font-family: 'inter', sans-serif;
+    min-block-size: 100vh;
 }
 
 

@@ -1,0 +1,11 @@
+@import './search.css';
+@import './chat-list.css';
+
+.sidebar{
+    block-size: 100vh;
+    inline-size: calc(var(--maxLayoutSize) * 0.30);
+    border-inline-end: 1px solid rgba(102, 102, 103, .5);
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}

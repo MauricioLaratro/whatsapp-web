@@ -15,4 +15,5 @@
 .user-status{
     font: var(--caption-12regular);
     color: var(--grey10);
+    white-space: nowrap;
 }
