@@ -6,6 +6,7 @@
     inline-size: calc(var(--maxLayoutSize) * 0.30);
     border-inline-end: 1px solid rgba(102, 102, 103, .5);
     box-sizing: border-box;
-    /* overflow-x: hidden; */
-    /* overflow-y: auto; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }

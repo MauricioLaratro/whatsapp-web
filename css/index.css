@@ -13,6 +13,7 @@
     font-size: 16px;
     --black: #000000; 
     --grey10: #666667; 
+    --grey15: rgba(210, 210, 210, .7); 
     --grey20: #f2f2f2; 
     --grey30: #f6f6f6; 
     --grey40: #ededed; 
@@ -37,6 +38,19 @@ body{
     min-block-size: 100vh;
 }
 
+::-webkit-scrollbar{
+    background-color: transparent;
+    inline-size: .5rem;
+}
+
+::-webkit-scrollbar-button{
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--grey15);
+    opacity: 1;
+}
 
 
 /* *{

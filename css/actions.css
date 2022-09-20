@@ -1,3 +1,28 @@
 .actions{
     block-size: var(--actionsSize);
+    background: var(--grey40);
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions img{
+    vertical-align: middle;
+}
+
+.actions input{
+    font: var(--body-16regular);
+    border: none;
+    border-radius: 3.125rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    color: var(--grey10);
+    flex: 1;
+    inline-size: 900px;
+}
+
+.button{
+    cursor: pointer;
 }

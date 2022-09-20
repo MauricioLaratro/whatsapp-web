@@ -1,6 +1,5 @@
 .chat-list{
-    border: 1px solid red;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 .sidebarChat{
@@ -8,6 +7,11 @@
     padding: 1rem;
     gap: .5rem;
     align-items: center;
+    cursor: pointer;
+}
+
+.sidebarChat.is-active{
+    background-color: var(--grey20);
 }
 
 .sidebarChat-text{
@@ -15,7 +19,6 @@
     flex-direction: column;
     overflow: hidden;
     gap: .5rem;
-
 }
 
 .sidebarChat-message{
@@ -35,7 +38,9 @@
     justify-content: space-between;
 }
 
-
+.mauricioImg{
+    border-radius: 50%;
+}
 
 
 /* .sidebarChat-text span:last-child{
