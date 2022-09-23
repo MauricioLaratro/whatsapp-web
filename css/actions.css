@@ -19,8 +19,15 @@
     padding-inline: 1rem;
     padding-block: 1rem;
     color: var(--grey10);
-    flex: 1;
-    inline-size: 900px;
+    flex-wrap: 1;
+    flex-shrink: 1;
+    inline-size: 56.25rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .actions input{
+        inline-size: 12.5rem;
+    }
 }
 
 .button{
