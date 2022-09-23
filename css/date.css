@@ -4,4 +4,5 @@
     padding: .625rem;
     font: var(--body-16regular);
     align-self: center;
+    margin-block: .5rem;
 }

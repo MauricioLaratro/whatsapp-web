@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+.message-text a{
+    color: #316AFB;
+}
+
 .message.is-receiver{
     background-color: var(--white);
     align-self: flex-start;
