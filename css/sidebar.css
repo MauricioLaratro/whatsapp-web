@@ -16,3 +16,19 @@
     text-decoration: none;
     color: black;
 }
+
+.sidebar2{
+    block-size: 100vh;
+    inline-size: calc(var(--maxLayoutSize) * 0.30);
+    min-inline-size: 200px;
+    border-inline-end: 1px solid rgba(102, 102, 103, .5);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+}
+
+.sidebar2 a{
+    text-decoration: none;
+    color: black;
+}

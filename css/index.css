@@ -62,4 +62,8 @@ body{
     .chat{
         display: flex;
     }
+
+    .sidebar2{
+        display: flex;
+    }
 }
