@@ -1,5 +1,5 @@
 .chat{
-    display: flex;
+    display: none;
     flex-direction: column;
     block-size: 100vh;
     inline-size: 100vh;
@@ -7,3 +7,11 @@
     flex-shrink: 1;
 }
 
+.chat2{
+    display: flex;
+    flex-direction: column;
+    block-size: 100vh;
+    inline-size: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
